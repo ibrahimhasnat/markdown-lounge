@@ -9,7 +9,7 @@ import { Textarea } from '@/components/ui/textarea'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 
 
-const page = () => {
+const Page = () => {
 
   const [markdownInput, setMarkdownInput] = useState('')
 
@@ -125,4 +125,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
